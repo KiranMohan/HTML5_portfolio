@@ -34,8 +34,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
+    <header class="navbar navbar-default navbar-fixed-top">
+        <div id='headerNavBar' class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
@@ -43,21 +43,92 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                <a class="navbar-brand" href="#">
-                  <img id="brand-image-icon" src="images/letter-k.svg" alt=""> Kiran Mohan
+                <a class="navbar-brand" href="Portfolio.html">
+                    <img id="brand-image-icon" src="images/letter-k.svg" alt=""> Kiran Mohan
                 </a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="../navbar/">About</a></li>
-                    <li><a href="../navbar-static-top/">Portfolio</a></li>
-                    <li class="active"><a href="./">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
             <!--/.nav-collapse -->
         </div>
-    </nav>
+    </header>
 
+    <main id="mainSections">
+        <section id="about">
+            <div id="aboutText">
+                <p>Front-End Developer and UX/UI designer, with practical experience in project management, branding strategy, and creative direction; devoted to functional programming and information architecture.</p>
+                <hr>
+                <p>Web Developer - User Experience Designer - Graphic Artist</p>
+            </div>
+            <img src="images/meAtWork.jpg" alt="" title="Kiran Mohan at work!!!">
+        </section>
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <hr>
+            <ul>
+                <li><img src="images/YMCA-Realtor-Donation-3.jpg" alt="" title="toBeReplaced"></li>
+                <li><img src="images/webcaballero.jpg" alt="" title="toBeReplaced"></li>
+                <li><img src="images/webmarqas.jpg" alt="" title="toBeReplaced"></li>
+                <li><img src="images/panacea1.jpg" alt="" title="toBeReplaced"></li>
+                <li><img src="images/webbrandaxis.jpg" alt="" title="toBeReplaced"></li>
+                <li><img src="images/webgatomalo.jpg" alt="" title="toBeReplaced"></li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <hr>
+            <form action="" id="contactForm">
+                <div class="contactFromItem">
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+                </div>
+                <div class="contactFromItem">
+                    <label for="email">Email Address</label>
+                    <input type="text" id="email">
+                </div>
+                <div class="contactFromItem">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" id="phone">
+                </div>
+                <div class="contactFromItem">
+                    <label for="contactMessage"></label>
+                    <input type="text" id="contactMessage">
+                </div>
+                <button type="submit" name="sendButton">Send</button>
+            </form>
+            <p>Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika
+                here in stunning Toronto... just feel free to drop me a line anytime.</p>
+            <p>I promise to reply A.S.A.P.</p>
+            <p>Note: No spam/soliciting, thank you :-)</p>
+        </section>
+    </main>
+    <footer>
+        <div id="footer1">
+            <div id="aboutThePage"></div>
+            <h3>About this page</h3>
+            <p>Made with coffee and music.</p>
+            <p>by Kiran Mohan</p>
+            <div id="aroundTheWorld">
+                <h3>Around the Web</h3>
+                <ul>
+                    <li><a rel="nofollow" class="button social" href="https://www.linkedin.com/in/abc"><i class="fa fa-fw fa-linkedin"></i></a></li>
+                    <li><a rel="nofollow" class="button social" href="https://github.com/abc"><i class="fa fa-fw fa-github"></i></a></li>
+                    <li><a rel="nofollow" class="button social" href="https://twitter.com/abc"><i class="fa fa-fw fa-twitter"></i></a></li>
+                    <li><a rel="nofollow" class="button social" href="https://www.flickr.com/photos/abc" title="My Flickr"><i class="fa fa-fw fa-flickr"></i></a></li>
+                </ul>
+
+            </div>
+        </div>
+        <div id="footer2">
+            <p>Kiran Mohan © 2017. All Rights Reversed
+                <p>
+        </div>
+    </footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
