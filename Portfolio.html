@@ -30,11 +30,12 @@
     <!-- =============================== access bootstrap over internet end   =========================== -->
 
     <link rel="stylesheet" href="css/portfolioStyle.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" >
 
 </head>
 
 <body>
-    <header class="navbar navbar-default navbar-fixed-top">
+    <header id="headerNav" class="navbar navbar-default navbar-fixed-top">
         <div id='headerNavBar' class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -58,18 +59,18 @@
         </div>
     </header>
 
-    <main id="mainSections">
-        <section id="about">
-            <div id="aboutText">
+    <main id="mainSections" class="container-fluid">
+        <section id="about" class="row">
+            <div id="aboutText" class="col-xs-12 col-sm-offset-1 col-sm-6">
                 <p>Front-End Developer and UX/UI designer, with practical experience in project management, branding strategy, and creative direction; devoted to functional programming and information architecture.</p>
-                <hr>
+                <hr class="hr-thick">
                 <p>Web Developer - User Experience Designer - Graphic Artist</p>
             </div>
-            <img src="images/meAtWork.jpg" alt="" title="Kiran Mohan at work!!!">
+            <img id="aboutImage" class="img-circle col-xs-6 col-sm-offset-1 col-sm-3"  src="images/meAtWork2.jpg" alt="" title="Kiran Mohan at work!!!">
         </section>
         <section id="portfolio">
             <h2>Portfolio</h2>
-            <hr>
+            <hr class="hr-thick">
             <ul>
                 <li><img src="images/YMCA-Realtor-Donation-3.jpg" alt="" title="toBeReplaced"></li>
                 <li><img src="images/webcaballero.jpg" alt="" title="toBeReplaced"></li>
@@ -81,7 +82,7 @@
         </section>
         <section id="contact">
             <h2>Contact Me</h2>
-            <hr>
+            <hr class="hr-thick">
             <form action="" id="contactForm">
                 <div class="contactFromItem">
                     <label for="name">Name</label>
