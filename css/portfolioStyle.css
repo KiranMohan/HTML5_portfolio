@@ -19,6 +19,8 @@ body {
 #headerNav {
     margin: 0;
     background-color: #722872 !important;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-color: #592059;
 }
 
 #headerNav a {
@@ -37,6 +39,7 @@ body {
     margin: 0 auto;
     padding-left: 0;
     padding-right: 0;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 #about {
@@ -92,14 +95,16 @@ body {
     border-color: #888;
 }
 
-footer {
-    color: #fff;
-    background-color: #aaa;
+#footer {
+    background-color: #eee;
+    color: #888;
     text-align: center;
     box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+    padding: 0;
 }
 
 #footer2 {
+    color: #fff;
     box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
     padding: 25px 0;
     background-color: #722872;
@@ -121,9 +126,9 @@ footer li {
     padding: 5px;
 }
 
-#socialButton .button {
-    color: #fff;
-    border: solid 2px #fff;
+#socialButton a.button {
+    color: #888;
+    border: solid 2px #888;
     border-radius: 50%;
     font-size: 20px;
     width: 50px !important;
