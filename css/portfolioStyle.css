@@ -1,6 +1,7 @@
 body {
     min-height: 2000px;
     padding-top: 70px;
+    background-color: grey;
 }
 
 #brand-image-icon {
@@ -9,4 +10,15 @@ body {
     margin-top: -8px;
     margin-right: 2px;
     /*border: 0.5px solid grey;*/
+}
+
+#headerNavBar {
+    max-width: 1024px;
+    width: 95%;
+}
+
+#mainSections{
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: #fff;
 }
