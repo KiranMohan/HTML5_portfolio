@@ -30,7 +30,7 @@
     <!-- =============================== access bootstrap over internet end   =========================== -->
 
     <link rel="stylesheet" href="css/portfolioStyle.css">
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" >
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -66,7 +66,7 @@
                 <hr class="hr-bright">
                 <p>Web Developer - User Experience Designer - Graphic Artist</p>
             </div>
-            <img id="aboutImage" class="img-circle col-xs-6 col-sm-offset-1 col-sm-3"  src="images/meAtWork2.jpg" alt="" title="Kiran Mohan at work!!!">
+            <img id="aboutImage" class="img-circle col-xs-6 col-sm-offset-1 col-sm-3" src="images/meAtWork2.jpg" alt="" title="Kiran Mohan at work!!!">
         </section>
         <section id="portfolio">
             <h2>PORTFOLIO</h2>
@@ -82,30 +82,35 @@
         </section>
         <section id="contact">
             <h2>CONTACT ME</h2>
-            <hr class="hr-dark">
-            <form action="" id="contactForm">
-                <div class="contactFromItem">
-                    <label for="name">Name</label>
-                    <input type="text" id="name">
+            <hr class="hr-bright">
+            <div class="row">
+                <form class="col-xs-12 col-sm-7" action="" id="contactForm">
+                    <div class="form-group">
+                        <!-- <label for="name">Name</label> -->
+                        <input class="form-control" type="text" placeholder="Name" id="name">
+                    </div>
+                    <div class="form-group">
+                        <!-- <label for="email">Email Address</label> -->
+                        <input class="form-control" type="email" placeholder="EMail" id="email">
+                    </div>
+                    <div class="form-group">
+                        <!-- <label for="phone">Phone Number</label> -->
+                        <input class="form-control" type="phone" placeholder="Phone" id="phone">
+                    </div>
+                    <div class="form-group">
+                        <!-- <label for="contactMessage">Message</label> -->
+                        <!-- <input class="form-control" type="text" id="contactMessage"> -->
+                        <textarea class="form-control" id="contactMessage" rows="5" placeholder="Message" required=""></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block" name="sendButton">Send</button>
+                </form>
+                <div class="col-xs-12 col-sm-5">
+                    <p>Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice
+                        Fika here in stunning Toronto... just feel free to drop me a line anytime.</p>
+                    <p>I promise to reply A.S.A.P.</p>
+                    <p class="text-danger">Note: No spam/soliciting, thank you :-)</p>
                 </div>
-                <div class="contactFromItem">
-                    <label for="email">Email Address</label>
-                    <input type="text" id="email">
-                </div>
-                <div class="contactFromItem">
-                    <label for="phone">Phone Number</label>
-                    <input type="text" id="phone">
-                </div>
-                <div class="contactFromItem">
-                    <label for="contactMessage"></label>
-                    <input type="text" id="contactMessage">
-                </div>
-                <button type="submit" name="sendButton">Send</button>
-            </form>
-            <p>Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika
-                here in stunning Toronto... just feel free to drop me a line anytime.</p>
-            <p>I promise to reply A.S.A.P.</p>
-            <p>Note: No spam/soliciting, thank you :-)</p>
+            </div>
         </section>
     </main>
     <footer>
