@@ -2,7 +2,7 @@ body {
     min-height: 2000px;
     padding-top: 70px;
     background-color: #666;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 20px;
 }
 
@@ -16,6 +16,7 @@ body {
 
 #headerNav {
     margin: 0;
+    background-color: #722872 !important;
 }
 
 #headerNavBar {
@@ -23,7 +24,7 @@ body {
     width: 95%;
 }
 
-#mainSections{
+#mainSections {
     max-width: 1024px;
     margin: 0 auto;
     padding-left: 0;
@@ -67,7 +68,6 @@ body {
 
 #portfolio li img {
     margin: 5px;
-
 }
 
 #contact div[class=row] {
@@ -75,11 +75,25 @@ body {
     margin-top: 5%;
 }
 
-.hr-bright, .hr-dark{
+.hr-bright, .hr-dark {
     border-width: 3px;
     width: 90%;
 }
 
 .hr-dark {
     border-color: #888;
+}
+
+footer {
+    color: #fff;
+    background-color: #aaa;
+    text-align: center;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+#footer2 {
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+    padding: 25px 0;
+    background-color: #722872;
+    text-align: center;
 }
