@@ -21,6 +21,12 @@ body {
     background-color: #722872 !important;
 }
 
+#headerNav a {
+    background-color: #efefef !important;
+    border-radius: 5px;
+    margin: 5px 5px 5px 0;
+}
+
 #headerNavBar {
     max-width: 1024px;
     width: 95%;
